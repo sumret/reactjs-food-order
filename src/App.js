@@ -8,7 +8,7 @@ import Cart from './components/Cart/Cart';
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
 
-  function showCartHandelr(){
+  function showCartHandler(){
     setCartIsShown(true);
   }
   function hideCartHandler(){
